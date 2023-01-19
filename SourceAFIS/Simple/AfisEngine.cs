@@ -1,9 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
-using SourceAFIS.General;
 using SourceAFIS.Extraction;
 using SourceAFIS.Templates;
 using SourceAFIS.Matching;

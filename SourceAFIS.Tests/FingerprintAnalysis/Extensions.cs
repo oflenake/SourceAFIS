@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using System.Threading;
 using System.Windows;
 using System.Windows.Automation;
 using NUnit.Framework;
-using White.Core;
-using White.Core.Factory;
-using White.Core.UIItems;
-using White.Core.UIItems.WindowItems;
-using White.Core.UIItems.ListBoxItems;
-using White.Core.UIItems.Finders;
-using White.Core.WindowsAPI;
+using TestStack.White.UIItems;
+using TestStack.White.UIItems.WindowItems;
+using TestStack.White.UIItems.ListBoxItems;
+using TestStack.White.UIItems.Finders;
+using TestStack.White.WindowsAPI;
 
 namespace SourceAFIS.Tests.FingerprintAnalysis
 {

@@ -1,9 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Drawing;
 using System.Xml.Serialization;
-using System.IO;
 #if !MONO
 using System.Windows.Media.Imaging;
 #endif
