@@ -1,11 +1,8 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Windows.Media.Imaging;
 using System.IO;
-using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using SourceAFIS.Simple; // import namespace SourceAFIS.Simple
 
@@ -70,10 +67,12 @@ namespace Sample
             Afis = new AfisEngine();
 
             // Enroll some people
-            List<MyPerson> database = new List<MyPerson>();
-            database.Add(Enroll(Path.Combine(ImagePath, "candidate1.tif"), "Fred Flintstone"));
-            database.Add(Enroll(Path.Combine(ImagePath, "candidate2.tif"), "Wilma Flintstone"));
-            database.Add(Enroll(Path.Combine(ImagePath, "candidate3.tif"), "Barney Rubble"));
+            List<MyPerson> database = new List<MyPerson>
+            {
+                Enroll(Path.Combine(ImagePath, "candidate1.tif"), "Fred Flintstone"),
+                Enroll(Path.Combine(ImagePath, "candidate2.tif"), "Wilma Flintstone"),
+                Enroll(Path.Combine(ImagePath, "candidate3.tif"), "Barney Rubble")
+            };
 
             // Save the database to disk and load it back, just to try out the serialization
             BinaryFormatter formatter = new BinaryFormatter();

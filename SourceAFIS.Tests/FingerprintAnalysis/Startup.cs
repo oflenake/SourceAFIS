@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
 using System.Xml.Linq;
 using NUnit.Framework;
-using White.Core;
-using White.Core.Factory;
-using White.Core.UIItems.WindowItems;
+using TestStack.White.UIItems.WindowItems;
 
 namespace SourceAFIS.Tests.FingerprintAnalysis
 {

@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading;
 using System.IO;
 using NUnit.Framework;
-using White.Core.UIItems;
-using White.Core.UIItems.Finders;
+using TestStack.White.UIItems;
+using TestStack.White.UIItems.Finders;
 
 namespace SourceAFIS.Tests.FingerprintAnalysis
 {

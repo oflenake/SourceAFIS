@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Reflection;
+﻿// Uses SourceAFIS.Tests Library. 
 
 namespace SourceAFIS.Tests.Runner
 {
@@ -12,7 +8,7 @@ namespace SourceAFIS.Tests.Runner
         {
             NUnit.ConsoleRunner.Runner.Main(new string[]
             {
-                typeof(SourceAFIS.Tests.Executable.Installer).Assembly.Location
+                typeof(Executable.Installer).Assembly.Location
             });
         }
     }
